@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./Css/style.css" />
+
+    <script src="https://kit.fontawesome.com/056044131c.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <nav>
+        <h2>Shopping Card Project</h2>
+
+        <div>
+            <button id="btn-shop" onclick="affiche()"><i class="fa-solid fa-bag-shopping fa-xl" ></i></button>
+        </div>
+
+    </nav>
+
+    <section class="Products">
+
+        <figure class="img1">
+
+            <img id="selected-img1" src="./img/item1.webp" alt="" width="200" height="200">
+            <figcaption>
+                <div class="p-info">
+                    <p>Nike Air Max 90 Air Max Month</p>
+
+                    <button class="plus">+</button>
+                    <span class="qte1">0</span>
+                    <button class="moins">-</button>
+                </div>
+
+                <div class="price">
+                    <p>Price :
+                        <p class="prix">160$</p>
+                    </p>
+
+                    <Button onclick="like1()" id="btnh1" class="btn"><i class="fas fa-heart"></i></Button>
+                    <button class="btn" id="add"><i class="fa-solid fa-cart-plus"></i></button>
+
+                </div>
+
+            </figcaption>
+        </figure>
+        <figure class="img1 ">
+            <img id="selected-img2" src="./img/item2.webp " alt=" " width="200 " height="200 ">
+            <figcaption>
+                <div class="p-info ">
+                    <p>Nike Air Max 90 Air Max Month</p>
+
+                    <button class="plus ">+</button>
+                    <span class="qte2">0</span>
+                    <button class="moins ">-</button>
+                </div>
+                <div class="price">
+                    <p>Price :
+                        <p class="prix">160$</p>
+                    </p>
+
+                    <Button onclick="like2()" id="btnh2" class="btn"><i class="fas fa-heart"></i></Button>
+                    <button class="btn" id="add"><i class="fa-solid fa-cart-plus"></i></button>
+
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="img1 ">
+            <img id="selected-img3" src="./img/item3.webp " alt=" " width="200 " height="200 ">
+            <figcaption>
+                <div class="p-info ">
+                    <p>Nike Air Max 90 Air Max Month</p>
+
+                    <button class="plus ">+</button>
+                    <span class="qte3">0</span>
+                    <button class="moins ">-</button>
+                </div>
+                <div class="price">
+                    <p>Price :
+                        <p class="prix">160$</p>
+                    </p>
+
+                    <Button onclick="like3()" id="btnh3" class="btn"><i class="fas fa-heart"></i></Button>
+                    <button class="btn" id="add"><i class="fa-solid fa-cart-plus"></i></button>
+
+                </div>
+            </figcaption>
+        </figure>
+
+        <figure class="img1 ">
+            <img id="selected-img4" src="./img/item4.webp " alt=" " width="200 " height="200 ">
+            <figcaption>
+                <div class="p-info ">
+                    <p>Nike Air Max 90 Air Max Month</p>
+
+                    <button class="plus ">+</button>
+                    <span class="qte4">0</span>
+                    <button class="moins ">-</button>
+                </div>
+                <div class="price">
+                    <p>Price :
+                        <p class="prix">160$</p>
+                    </p>
+
+                    <Button onclick="like4()" id="btnh4" class="btn"><i class="fas fa-heart"></i></Button>
+                    <button class="btn" id="add"><i class="fa-solid fa-cart-plus"></i></button>
+
+                </div>
+            </figcaption>
+        </figure>
+    </section>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+
+
+            <span class="close">&times;</span>
+
+        </div>
+
+    </div>
+    <section id="panier">
+        <p style="text-align: center;">Votre panier</p>
+        <table id="tab" style="width: 600px;">
+            <tr id="td1">
+                <th>Produit</th>
+                <th>PRIX</th>
+                <th>QUANTITEE</th>
+                <th>EFFACER</th>
+            </tr>
+
+        </table>
+
+
+
+    </section>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
